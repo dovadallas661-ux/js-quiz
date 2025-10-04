@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/*Navbar with flexbox*/
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #222;
+color: white;
+padding: 16px 32px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main content with Grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 30px;
+}
+
+.box {
+  background: #4CAF50;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 16px;
+}
